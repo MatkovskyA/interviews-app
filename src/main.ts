@@ -8,6 +8,8 @@ import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 import Menubar from 'primevue/menubar';
+import Button from 'primevue/button';
+import InputText from 'primevue/inputtext';
 
 import App from './App.vue'
 import router from './router'
@@ -40,4 +42,6 @@ app.use(PrimeVue, {
   }
 });
 app.component('app-menubar', Menubar)
+app.component('app-button', Button)
+app.component('app-input-text', InputText)
 app.mount('#app')

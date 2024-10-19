@@ -4,3 +4,11 @@ body {
   background-color: rgb(68, 71, 71);
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+a {
+  color: rgb(166, 166, 253);
+}
+
+a:hover {
+  color: rgb(250, 225, 188);
+}
